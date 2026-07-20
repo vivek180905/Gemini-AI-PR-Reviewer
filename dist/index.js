@@ -32696,7 +32696,7 @@ async function run() {
 
     // 4. Initialize Gemini AI
     const genAI = new GoogleGenerativeAI(geminiApiKey);
-    const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
+    const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash-latest' });
 
     // 5. Construct the Prompt for the Senior Engineer persona
     const prompt = `Act as a Senior Software Engineer. Please review the following git diff for bugs, performance issues, and security vulnerabilities. 
