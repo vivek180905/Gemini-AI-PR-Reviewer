@@ -1,6 +1,6 @@
 # Gemini PR Reviewer
 
-🚀 **Gemini PR Reviewer** is a custom GitHub Action that leverages the power of Google's Gemini AI (`gemini-1.5-flash`) to automatically review your Pull Requests. It acts as a Senior Software Engineer, reviewing your git diff for bugs, performance issues, and security vulnerabilities, and posts a professional, actionable comment directly on your PR.
+🚀 **Gemini PR Reviewer** is a custom GitHub Action that leverages the power of Google's Gemini AI (`gemini-3.5-flash`) to automatically review your Pull Requests. It acts as a Senior Software Engineer, reviewing your git diff for bugs, performance issues, and security vulnerabilities, and posts a professional, actionable comment directly on your PR.
 
 ## Features
 
