@@ -1,0 +1,12 @@
+name: 'Gemini PR Reviewer'
+description: 'Review Pull Requests using the Google Gemini API'
+inputs:
+  github-token:
+    description: 'GitHub token for accessing the repository and posting comments'
+    required: true
+  gemini-api-key:
+    description: 'API key for Google Gemini'
+    required: true
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
