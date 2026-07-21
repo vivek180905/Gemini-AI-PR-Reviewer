@@ -1,5 +1,7 @@
 name: 'Gemini PR Reviewer'
 description: 'Review Pull Requests using the Google Gemini API'
+author: 'Vivek Raj'
+
 inputs:
   github-token:
     description: 'GitHub token for accessing the repository and posting comments'
@@ -10,3 +12,7 @@ inputs:
 runs:
   using: 'node20'
   main: 'dist/index.js'
+
+branding:
+  icon: 'cpu'        
+  color: 'blue'
